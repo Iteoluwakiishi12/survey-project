@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div id="posit">
+         <div id="animation">
+      </div>
+      <div id="container">
+        <h1 id="title">
+        Anime Lovers Survey Form
+      </h1>
+      <p id="description">
+        "This survey form for anime lovers no matter the number of anime you have watched."
+      </p> <hr>
+      <form id="survey-form">
+        <label for="name" id="name-label"> Name:
+          <input type="text" id="name" placeholder="Type your name here" required class="decor">
+        </label> <br> <br>
+       <label for="email" id="email-label"> E-mail:
+         <input type="email" id="email" placeholder="Type your email here" class="decor" required>
+       </label> <br><br>
+        <label for="number" id="number-label"> Age:
+         <input type="number" id="number" min="10" max="90" placeholder="select" class="decor" required>
+       </label> <br> <br> 
+       which do you prefer:
+       <select id="dropdown" required class="decor">
+         <option>Manga</option>
+          <option>Movie</option>
+           <option>Netflix adaptation</option>
+       </select><br><br> 
+       What was your first anime ever? <br>
+         <input type="radio" name="anime" id="naruto" value="anime" class="decor">  <label for="naruto"> Naruto
+       </label> <br>
+         <input type="radio" name="anime" id="kimetsu" value="anime" ><label for="kimetsu"> Kimetsu No yaiba
+       </label><br>
+  <input type="radio" name="anime" id="akame"value="anime">  <label for="akame" >Akame ga kill
+       </label><br>
+         <input type="radio" name="anime" id="kageguri" value="anime"> <label for="kageguri"> Kageguri
+       </label><br>
+       <label for="anyother">
+         <input type="text" name="anime"  id="anyother" placeholder="Any  other" class="decor"> 
+       </label> <br><br>
+  
+     Do you prefer Anime in English or Japanese with subtitle:<br>
+       <input type="checkbox" name="Preference1" value="Preference1" id="english">
+       <label for="English">
+         English with English subtitles
+       </label><br>
+        <input type="checkbox" name="preference2" value="preference2" id="Japanese">
+       <label for="Japanese">
+          Japanese with english subtitles
+     </label> <br> <br>
+     <p>Why do you like Anime</p>
+       <textarea cols="40" rows="10" placeholder="Type here..." class="decor">
+     </textarea>
+     </label> <br><br>
+     <button id="submit" class="decor"><a href="target_blank">Submit</a></button>
+        </form>
+   </div>
+      </div>
+     
+    
+    </body>
+    </html>
+    
+   
+    
+    
+    
