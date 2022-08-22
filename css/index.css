@@ -41,11 +41,11 @@
         position: relative;
       }
       @keyframes frame{
-        0%   {background-image:url('/pictures/andrew-de-leon--uWiIajRN0s-unsplash.jpg'); left:100px; top:0px;}
-        20%  {background-image:url('/pictures/erik-mclean-OQgpRHFJwbQ-unsplash.jpg'); right:0px; top:0px;}
-        50%  {background-image:url('/pictures/maha-khairy-3uuLWb6aQXc-unsplash.jpg');right:20px; top:200px;}
-        75%  {background-image:url('/pictures/marek-okon-2m6wr8qMiio-unsplash.jpg'); left:20px; top:200px;}
-        100% {background-image:url('/pictures/ryan-yao-hhBvtVxDV_I-unsplash.jpg'); right:0px; top:0px;}
+        0%   {background-image:url('pictures/andrew-de-leon--uWiIajRN0s-unsplash.jpg'); left:100px; top:0px;}
+        20%  {background-image:url('pictures/erik-mclean-OQgpRHFJwbQ-unsplash.jpg'); right:0px; top:0px;}
+        50%  {background-image:url('pictures/maha-khairy-3uuLWb6aQXc-unsplash.jpg');right:20px; top:200px;}
+        75%  {background-image:url('pictures/marek-okon-2m6wr8qMiio-unsplash.jpg'); left:20px; top:200px;}
+        100% {background-image:url('pictures/ryan-yao-hhBvtVxDV_I-unsplash.jpg'); right:0px; top:0px;}
       }
       
       #animation{
