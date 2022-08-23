@@ -5,11 +5,9 @@
     body{
         font-size:18px;
         font-family:'dynapuff', cursive;
- background: linear-gradient(-45deg, #faa0af,#b399f0 , #cf80a6, #23d5ab);
+ background: linear-gradient( #faa0af, #b399f0, #cf80a6, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-
-     
       }
 @keyframes gradient {
     0% {
