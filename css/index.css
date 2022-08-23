@@ -2,8 +2,40 @@
     body{
         font-size:18px;
         font-family:'dynapuff', cursive;
-        background-color:#faa0af
-        
+        background-color:#faa0af;
+      animation-name:basic;
+animation-duration:4s;
+     animation-iteration-count:infinite;
+     
+      }
+   @keyframes basic{
+    0%  :{background-color:#faa0af;}
+                
+    50% :{background-color: ##b399f0;}
+    
+    100% : {background-color:#cf80a6;}
+}
+    
+  @keyframes frame{
+        0%   {background-image:url('pictures/andrew-de-leon--uWiIajRN0s-unsplash.jpg'); left:100px; top:0px;}
+        20%  {background-image:url('pictures/erik-mclean-OQgpRHFJwbQ-unsplash.jpg'); right:0px; top:0px;}
+        50%  {background-image:url('pictures/maha-khairy-3uuLWb6aQXc-unsplash.jpg');right:20px; top:200px;}
+        75%  {background-image:url('pictures/marek-okon-2m6wr8qMiio-unsplash.jpg'); left:20px; top:200px;}
+        100% {background-image:url('pictures/ryan-yao-hhBvtVxDV_I-unsplash.jpg'); right:0px; top:0px;}
+      }
+      
+      #animation{
+        width:20%;
+       border-radius: 50%;
+        height: 200px;
+        position: absolute;
+        background-repeat: none;      
+        background-attachment: fixed;
+        background-size: contain;
+        animation-iteration-count: infinite;
+        animation-name: frame;
+        animation-direction: alternate;
+        animation-duration: 15s;
       }
       #container{
         border: 2px solid #1b8a0a;
@@ -40,27 +72,7 @@
       #posit{
         position: relative;
       }
-      @keyframes frame{
-        0%   {background-image:url('pictures/andrew-de-leon--uWiIajRN0s-unsplash.jpg'); left:100px; top:0px;}
-        20%  {background-image:url('pictures/erik-mclean-OQgpRHFJwbQ-unsplash.jpg'); right:0px; top:0px;}
-        50%  {background-image:url('pictures/maha-khairy-3uuLWb6aQXc-unsplash.jpg');right:20px; top:200px;}
-        75%  {background-image:url('pictures/marek-okon-2m6wr8qMiio-unsplash.jpg'); left:20px; top:200px;}
-        100% {background-image:url('pictures/ryan-yao-hhBvtVxDV_I-unsplash.jpg'); right:0px; top:0px;}
-      }
-      
-      #animation{
-        width:20%;
-       border-radius: 50%;
-        height: 200px;
-        position: absolute;
-        background-repeat: none;      
-        background-attachment: fixed;
-        background-size: contain;
-        animation-iteration-count: infinite;
-        animation-name: frame;
-        animation-direction: alternate;
-        animation-duration: 15s;
-      }
+    
       button{
         padding: 1em 2em 1em 2em;
         margin: auto;
