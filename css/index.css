@@ -72,6 +72,9 @@
       textarea{
        resize:none;
         width:60%;
+       font-size:1.5rem;
+       color:#dce31e;
+       font-family:'dynapuff' cursive;
       }
       #posit{
         position: relative;
