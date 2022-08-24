@@ -4,7 +4,7 @@
 }
     body{
         font-size:18px;
-        font-family:'dynapuff', cursive;
+       font-family:'Noto Sans' cursive;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
       }
@@ -29,6 +29,7 @@
       }
       
       #animation{
+         font-family:'dynapuff', cursive;
        color:#fafafa;
         width:20%;
        border-radius: 50%;
@@ -50,9 +51,10 @@
         margin:0 auto;
         color:#050547;
         background-color:#989fd6;
-       font-family:'Noto Sans' cursive;
+      
       }
       #title{
+         font-family:'dynapuff', cursive;
         color:#f55f5f;
         font-size:3em;
         box-shadow: 
