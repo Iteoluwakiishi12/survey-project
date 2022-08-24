@@ -10,13 +10,13 @@
       }
 @keyframes gradient {
     0% {
-        background-color: #faa0af;
+        background-color:#5a118f;
     }
     50% {
-        background-color:  #b399f0;
+        background-color: #210536;
     }
     100% {
-        background-color: #cf80a6;
+        background-color: #0b080d;
     }
 }
 
