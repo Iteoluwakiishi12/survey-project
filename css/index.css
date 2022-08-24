@@ -42,7 +42,7 @@
         animation-duration: 15s;
       }
       #container{
-        border: 2px solid #1b8a0a;
+        border: 2px solid #4a0404;
         border-radius: 8px;
         text-align:center;
         width:70%;
@@ -51,7 +51,7 @@
         background-color:#c5f5bf;
       }
       #title{
-        color:#dce31e;
+        color:#f55f5f;
         font-size:3em;
         box-shadow: 
                 5px 2.9px 10px 3px #c2a9ad
