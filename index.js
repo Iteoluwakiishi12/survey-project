@@ -1,1 +1,4 @@
-let firstName = document.getElement byid("");
+let firstName = document.getElementById("name-label");
+function validateName
+
+
